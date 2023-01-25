@@ -55,7 +55,7 @@ async function StartApolloServer() {
   });
 
   // Modified server startup
-  const port = 4000;
+  const port = 3000;
   await new Promise((resolve) => httpServer.listen({ port }, resolve));
   console.log(
     `🚀 Server ready at http://localhost:${port}${server.graphqlPath}`
