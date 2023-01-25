@@ -1,4 +1,5 @@
 const getUserId = function (user) {
+  a
   return (user && user.id) || null;
 };
 module.exports = {
